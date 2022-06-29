@@ -15,7 +15,9 @@ function App() {
   return (
     <div className = "app">
       <Title />
+      <div className="cards--list">
       {cards}
+      </div>
     </div>
   );
 }
