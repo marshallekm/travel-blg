@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from "./components/Card.js"
-import Title from "./components/Title.js"
+import Navbar from "./components/Navbar.js"
 import data from './data.js'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   })
   return (
     <div className = "app">
-      <Title />
+      <Navbar />
       <div className="cards--list">
       {cards}
       </div>

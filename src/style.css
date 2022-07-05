@@ -18,14 +18,29 @@ box-sizing:border-box;
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+.location-dot, .earth {
+  margin-right: 8px;
+}
+
+.title--main {
+border-bottom: 1px solid black;
+font-size: 40px;
+display: flex;
+padding: 10px;
+height: 70px;
+justify-content: space-around;
 }
 
 .card--img {
-  width: 200px;
-  height: 300px;
-  margin-right: 20px;
-  max-width: 100%;
-  max-height: 100%;
+margin-right: 20px;
+display: block;
+object-fit: cover;
+width: 250px;
+height: 300px;
+border-radius: 14px;
 }
 
 .card--div {
@@ -40,5 +55,4 @@ a {
 .cards--list {
 display:flex;
 flex-direction: column;
-margin: 100px;
 }
