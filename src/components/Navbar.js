@@ -6,7 +6,7 @@ export default function Title(){
   return (
   <div className="title--main">
     <nav >
-      <FontAwesomeIcon icon={faEarthAmericas} className="earth"/>travel blog</nav>
+      <FontAwesomeIcon icon={faEarthAmericas} className="earth"/>cool travel blog</nav>
   </div>
   )
 }
