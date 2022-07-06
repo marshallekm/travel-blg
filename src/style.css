@@ -17,42 +17,154 @@ box-sizing:border-box;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+text-decoration: none;
+color:#4B1D3F;
+}
+a:hover {
+color: #0E7C7B;
 }
 
-.location-dot, .earth {
-  margin-right: 8px;
+.earth {
+margin-right: 12px;
 }
 
+.location-dot {
+color: #D62246;
+margin-right: 8px;
+}
 .title--main {
-border-bottom: 1px solid black;
 font-size: 40px;
 display: flex;
-padding: 10px;
-height: 70px;
+padding: 15px;
+height: 80px;
 justify-content: space-around;
+background-color: #17BEBB;
+color: white;
 }
 
 .card--img {
-margin-right: 20px;
-display: block;
+margin-left: 10px;
+margin-right: 30px;
+display: flex;
 object-fit: cover;
-width: 250px;
-height: 300px;
+width: 300px;
+height: 200px;
 border-radius: 14px;
+align-items: center;
 }
 
 .card--div {
-  display: flex;
-  margin-bottom: 48px;
+width: 100%;
+display: flex;
+padding: 28px;
+margin-bottom: 48px;
+padding-bottom: 48px;
+background-color: white;
+border-radius: 18px 18px 18px 18px;
 }
 
 .card--link {
-  text-decoration: none;
+text-decoration: none;
+font-size: 14px;
+}
+
+.fun--fact {
+width: 50px;
+margin-right: 10px;
+}
+
+.card--description{
+display: flex;
+align-items: center;
+font-size: 16px;
+}
+
+.card--start {
+font-size: 18px;
+}
+
+.card--links {
+align-items: center;
+margin-top:-20px;
+margin-bottom: -20px;
+display: flex;
+font-size: 18px;
+}
+
+.card--location {
+padding-right:30px;
+font-size: 20px;
 }
 
 .cards--list {
 display:flex;
 flex-direction: column;
+margin: 100px;
+}
+
+.app{
+background-color: #D4F4DD;
+margin-bottom: -300px;
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width:800px){
+.card--img{
+width:300px;
+height:200px;
+margin-bottom: 28px;
+margin-right:10px;
+}
+
+.card--div {
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.card--title{
+font-size: 24px;
+}
+
+.cards--list{
+  margin:100px;
+}
+
+.card--description, .card--start, .card--location{
+font-size: 14px;
+display: flex;
+}
+}
+
+
+
+@media screen and (min-width: 426px) and (max-width:600px){
+.card--img{
+width:230px;
+height:130px;
+margin-bottom: 18px;
+margin-right:10px;
+}
+
+.card--div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card--title{
+  font-size: 20px;
+}
+
+.card--description, .card--start, .card--location{
+  font-size: 11px;
+  display: flex;
+}
+
+.cards--list{
+  margin:100px;
+}
 }
