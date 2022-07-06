@@ -24,7 +24,16 @@ function App() {
     <ThemeContext.Provider value={{theme, toggleTheme}}>
     <div className = "app" id={theme}>
       <Navbar />
-      <Switch onChange ={toggleTheme} checked={theme === "dark"}/>
+      <div className = "switch">
+      <Switch
+      onChange ={toggleTheme} checked={theme === "dark"}
+      onColor="#045F62"
+      onHandleColor="#789C9D"
+      handleDiameter={30}
+      uncheckedIcon={false}
+      checkedIcon={false}
+      />
+      </div>
       <div className="cards--list">
       {cards}
       </div>

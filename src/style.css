@@ -24,12 +24,37 @@ a:hover {
 color: #0E7C7B;
 }
 
+.switch {
+  display: flex;
+  justify-content: left;
+  margin-top: 18px;
+  margin-left: 18px;
+}
+
 #light {
 background-color: #D4F4DD;
 }
 
 #dark {
 background-color: #12263A;
+}
+
+#dark .title--main{
+background-color: #045F62;
+color: white;
+}
+
+#dark .card--div{
+background-color: #789C9D;
+color: white;
+}
+
+#dark a {
+  color: white;
+}
+
+#dark a:hover {
+  color:  #12263A;
 }
 
 .earth {
