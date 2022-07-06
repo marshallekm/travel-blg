@@ -139,6 +139,7 @@ font-size: 20px;
 display:flex;
 flex-direction: column;
 margin: 150px;
+margin-top:20px;
 }
 
 .app{
@@ -156,9 +157,11 @@ justify-content: center;
 
 .card--img{
 margin-bottom: 38px;
-
 }
 
+.card--list{
+margin-top:20px;
+}
 .card--description{
 font-size: 14px;
 }
@@ -192,6 +195,7 @@ font-size: 24px;
 
 .cards--list{
   margin:100px;
+margin-top:20px;
 }
 
 .card--description, .card--start, .card--location{
@@ -230,5 +234,6 @@ margin-right:10px;
 
 .cards--list{
   margin:100px;
+  margin-top:20px;
 }
 }
