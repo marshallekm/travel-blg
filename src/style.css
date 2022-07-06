@@ -24,6 +24,14 @@ a:hover {
 color: #0E7C7B;
 }
 
+#light {
+background-color: #D4F4DD;
+}
+
+#dark {
+background-color: #12263A;
+}
+
 .earth {
 margin-right: 12px;
 }
@@ -103,9 +111,17 @@ margin: 100px;
 }
 
 .app{
-background-color: #D4F4DD;
 margin-bottom: -300px;
 }
+
+@media screen and (min-width: 800px) and (max-width:900px){
+
+.card--location{
+display: flex;
+align-items: center;
+}
+}
+
 
 
 @media screen and (min-width: 600px) and (max-width:800px){
@@ -123,6 +139,7 @@ align-items: center;
 justify-content: center;
 }
 
+
 .card--title{
 font-size: 24px;
 }
@@ -132,8 +149,9 @@ font-size: 24px;
 }
 
 .card--description, .card--start, .card--location{
-font-size: 14px;
+font-size: 13px;
 display: flex;
+align-items: center;
 }
 }
 
