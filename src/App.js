@@ -29,6 +29,8 @@ function App() {
       onChange ={toggleTheme} checked={theme === "dark"}
       onColor="#045F62"
       onHandleColor="#789C9D"
+      offHandleColor="#FFFFFF"
+      offColor="#15BEBB"
       handleDiameter={30}
       uncheckedIcon={false}
       checkedIcon={false}

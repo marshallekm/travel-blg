@@ -49,6 +49,10 @@ background-color: #789C9D;
 color: white;
 }
 
+#dark .location-dot {
+  color: #530B0B;
+}
+
 #dark a {
   color: white;
 }
@@ -204,6 +208,7 @@ margin-right:10px;
 .card--description, .card--start, .card--location{
   font-size: 11px;
   display: flex;
+  align-items: center;
 }
 
 .cards--list{
